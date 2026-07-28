@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="광고와 인앱 결제가 없는 길거리 킥 토너먼트 ONE Store Android 버전의 개인정보 처리방침입니다."
+    />
+    <meta name="robots" content="index,follow" />
+    <link
+      rel="canonical"
+      href="https://yesol-pilot.github.io/mint-privacy/"
+    />
+    <title>개인정보 처리방침 | 길거리 킥 토너먼트</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #eaf8ff;
+        --muted: #a8c3d2;
+        --line: rgba(125, 226, 255, 0.18);
+        --panel: rgba(8, 25, 38, 0.9);
+        --cyan: #54e6ff;
+        --gold: #ffd66b;
+        --deep: #04111d;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        background: var(--deep);
+      }
+      body {
+        margin: 0;
+        color: var(--ink);
+        background:
+          radial-gradient(
+            circle at 20% 0%,
+            rgba(39, 184, 214, 0.19),
+            transparent 38rem
+          ),
+          radial-gradient(
+            circle at 90% 16%,
+            rgba(255, 214, 107, 0.12),
+            transparent 30rem
+          ),
+          linear-gradient(160deg, #04111d 0%, #071d2b 52%, #030b13 100%);
+        font-family:
+          Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic",
+          system-ui, sans-serif;
+        line-height: 1.72;
+        min-height: 100vh;
+        word-break: keep-all;
+      }
+      main {
+        width: min(100% - 32px, 860px);
+        margin: 0 auto;
+        padding: 56px 0 80px;
+      }
+      .policy-card {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        box-shadow:
+          0 32px 100px rgba(0, 0, 0, 0.38),
+          inset 0 1px rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(18px);
+      }
+      .policy-header {
+        position: relative;
+        padding: 48px;
+        overflow: hidden;
+        border-bottom: 1px solid var(--line);
+        background:
+          linear-gradient(120deg, rgba(34, 190, 220, 0.15), transparent 48%),
+          linear-gradient(300deg, rgba(255, 214, 107, 0.1), transparent 42%);
+      }
+      .policy-header::after {
+        position: absolute;
+        right: -72px;
+        top: -84px;
+        width: 280px;
+        height: 280px;
+        border: 1px solid rgba(84, 230, 255, 0.14);
+        border-radius: 50%;
+        box-shadow:
+          0 0 0 34px rgba(84, 230, 255, 0.035),
+          0 0 0 72px rgba(84, 230, 255, 0.025);
+        content: "";
+      }
+      .brand-row {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+      .brand-mark {
+        display: grid;
+        width: 46px;
+        height: 46px;
+        place-items: center;
+        border: 1px solid rgba(84, 230, 255, 0.45);
+        border-radius: 14px;
+        color: var(--cyan);
+        background: rgba(84, 230, 255, 0.08);
+        font-size: 13px;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+      }
+      .eyebrow,
+      .channel {
+        margin: 0;
+        line-height: 1.35;
+      }
+      .eyebrow {
+        color: var(--cyan);
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.18em;
+      }
+      .channel {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      h1 {
+        position: relative;
+        z-index: 1;
+        max-width: 680px;
+        margin: 34px 0 18px;
+        font-size: clamp(36px, 8vw, 62px);
+        line-height: 1.08;
+        letter-spacing: -0.055em;
+      }
+      .lede {
+        position: relative;
+        z-index: 1;
+        max-width: 620px;
+        margin: 0;
+        color: #c8dce7;
+        font-size: 17px;
+      }
+      .summary-grid {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        margin: 34px 0 0;
+      }
+      .summary-grid div {
+        padding: 16px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 16px;
+        background: rgba(0, 0, 0, 0.17);
+      }
+      .summary-grid dt {
+        color: var(--muted);
+        font-size: 12px;
+      }
+      .summary-grid dd {
+        margin: 4px 0 0;
+        color: var(--gold);
+        font-size: 14px;
+        font-weight: 800;
+      }
+      section {
+        margin: 0 48px;
+        padding: 30px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+      }
+      h2 {
+        margin: 0 0 12px;
+        color: #fff;
+        font-size: 19px;
+        letter-spacing: -0.025em;
+      }
+      p,
+      ul {
+        margin: 0;
+        color: #bfd1dc;
+        font-size: 15px;
+      }
+      ul {
+        padding-left: 1.2em;
+      }
+      li + li {
+        margin-top: 7px;
+      }
+      strong {
+        color: #fff;
+      }
+      a {
+        margin: 0 0.24em;
+        color: var(--cyan);
+        text-decoration-color: rgba(84, 230, 255, 0.45);
+        text-underline-offset: 3px;
+      }
+      footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 26px 48px 32px;
+      }
+      footer p {
+        color: #7795a7;
+        font-size: 12px;
+      }
+      @media (max-width: 700px) {
+        main {
+          width: min(100% - 20px, 860px);
+          padding: 20px 0 42px;
+        }
+        .policy-card {
+          border-radius: 20px;
+        }
+        .policy-header {
+          padding: 32px 24px;
+        }
+        .summary-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        section {
+          margin: 0 24px;
+          padding: 26px 0;
+        }
+        footer {
+          flex-direction: column;
+          padding: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="policy-card">
+        <header class="policy-header">
+          <div class="brand-row">
+            <span class="brand-mark" aria-hidden="true">NG</span>
+            <div>
+              <p class="eyebrow">NEO GENESIS · MINT</p>
+              <p class="channel">ONE Store Android</p>
+            </div>
+          </div>
+          <h1>길거리 킥 토너먼트<br />개인정보 처리방침</h1>
+          <p class="lede">
+            이 방침은 광고와 인앱 결제가 없는 ONE Store Android 배포본에만
+            적용됩니다.
+          </p>
+          <dl class="summary-grid">
+            <div><dt>계정</dt><dd>요구하지 않음</dd></div>
+            <div><dt>광고</dt><dd>포함하지 않음</dd></div>
+            <div><dt>인앱 결제</dt><dd>포함하지 않음</dd></div>
+            <div><dt>운영자 서버 전송</dt><dd>없음</dd></div>
+          </dl>
+        </header>
+
+        <section>
+          <h2>1. 적용 범위</h2>
+          <p>
+            본 개인정보 처리방침은 Neo Genesis가 제공하는
+            <strong>길거리 킥 토너먼트</strong>의 ONE Store Android 버전에
+            적용됩니다. 앱인토스 등 다른 플랫폼 버전에는 해당 플랫폼과
+            기능에 맞춘 별도의 고지가 적용될 수 있습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>2. 개인정보의 수집 및 전송</h2>
+          <p>
+            운영자는 이 버전을 통해 이름, 전화번호, 이메일 주소, 위치,
+            연락처, 사진, 광고 ID, 결제 정보와 같은 개인정보를 수집하거나
+            운영자 서버로 전송하지 않습니다. 회원가입과 로그인을 요구하지
+            않으며, 외부 분석·광고 SDK를 포함하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>3. 기기에 저장되는 게임 정보</h2>
+          <p>
+            게임 진행도, 설정, 최고 기록과 같은 정보는 플레이를 이어가기
+            위해 이용자의 기기에만 저장될 수 있습니다. 해당 정보는
+            운영자에게 전송되지 않으며, 앱을 삭제하거나 Android 설정에서
+            앱 저장공간을 삭제하면 제거할 수 있습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. 권한, 광고 및 결제</h2>
+          <ul>
+            <li>별도의 선택적 Android 접근 권한을 요청하지 않습니다.</li>
+            <li>Google Mobile Ads SDK와 광고 ID 권한을 포함하지 않습니다.</li>
+            <li>Google Play Billing 및 인앱 결제 기능을 포함하지 않습니다.</li>
+            <li>유료 또는 확률형 아이템을 제공하지 않습니다.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>5. 제3자 제공 및 국외 이전</h2>
+          <p>
+            운영자가 수집하는 개인정보가 없으므로 제3자 제공, 처리위탁,
+            국외 이전도 없습니다. ONE Store 자체 서비스 이용 과정에서
+            처리되는 정보는 ONE Store의 개인정보 처리방침이 적용됩니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. 아동의 개인정보</h2>
+          <p>
+            앱은 아동을 포함한 이용자에게 개인정보 입력을 요구하지 않으며,
+            운영자가 아동의 개인정보를 수집하는 기능도 제공하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>7. 문의 및 방침 변경</h2>
+          <p>
+            개인정보 관련 문의는
+            <a href="mailto:help@neogenesis.app">help@neogenesis.app</a>으로
+            접수할 수 있습니다. 수집 항목, 광고, 분석, 로그인, 결제 또는
+            서버 전송 기능이 추가되는 경우 적용 전에 이 방침과 스토어
+            선언을 함께 갱신합니다.
+          </p>
+        </section>
+
+        <footer>
+          <p>시행일: 2026년 7월 29일</p>
+          <p>서비스 운영자: Neo Genesis</p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
